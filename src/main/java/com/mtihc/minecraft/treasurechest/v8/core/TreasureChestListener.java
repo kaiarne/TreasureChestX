@@ -128,11 +128,12 @@ class TreasureChestListener implements Listener {
 		if(cancelled) {
 			event.blockList().clear();
 		}
-	}
+	}	
 	
 	
-	
-	
+	/* ****** DISABLING this completely, because onBlockPowered caused massive lag on our server 
+		and we don't use dispenser or dropper; kaiarne; did this in 2018 already, but it got reverted somehow
+		this feature wasting ticks is noted in div Github Issues and Gemini also noticed this
 	
 	@EventHandler(priority=EventPriority.HIGH)
     public void onBlockPowered(BlockPhysicsEvent event) {
@@ -186,6 +187,8 @@ class TreasureChestListener implements Listener {
 			// no need for dropper.drop()
 		}
     }
+
+	*/
 	
 	private boolean isInventoryEmpty(Inventory inventory) {
 		int n = inventory.getSize();
