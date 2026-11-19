@@ -1,4 +1,4 @@
-# TreasureChestX - No Readstone Variant
+# TreasureChestX - No Redstone Variant
 
 This is a fork with updated dependencies, some small fixes, but above all REMOVED dropper/dispenser function, because our server doesn't need it and it causes pain to the server :)
 
