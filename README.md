@@ -2,6 +2,8 @@
 
 This is a fork with updated dependencies, some small fixes, but above all REMOVED dropper/dispenser function, because our server doesn't need it and it causes pain to the server :)
 
+---- 
+
 An updated fork of a plugin for Minecraft that let's you create treasure chests for people to find and loot!
 
 ## Full credit to the original plugin authors:
